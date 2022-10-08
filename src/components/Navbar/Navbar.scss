@@ -1,0 +1,25 @@
+.navbarContainer {
+  height: 100px;
+  background-color: red;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.navlogo img {
+  width: 80%;
+}
+
+.search {
+}
+
+.search input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #213f7d;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  outline: none;
+  padding: 0 20px;
+}

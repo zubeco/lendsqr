@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "avenir";
+  src: url("../../../fonts/AvenirNextLTPro-Regular.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "avenir";
+  src: url("../../../fonts/AvenirNextLTPro-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "avenir";
+  src: url("../../../fonts/AvenirNextLTPro-It.otf");
+  font-weight: 200;
+}
+
+.formCompWrapper {
+  width: 50%;
+  height: 100%;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1058px) {
+  .formCompWrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+.formCompWrapper h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #213f7d;
+  font-family: avenir;
+  font-weight: 700;
+}
+
+.formCompWrapper h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #545f7d;
+  font-family: avenir;
+  font-weight: 500;
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+
+.loginForm {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formCompContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 65%;
+}
+
+@media only screen and (max-width: 550px) {
+  .formCompContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+.loginForm input {
+  width: 100%;
+  height: 50px;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+  padding: 0 20px;
+  color: #545f7d;
+  font-family: avenir;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+}
+
+.loginForm > p {
+  font-family: avenir;
+  font-weight: 500;
+  color: #39cdcc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.loginForm > h3 {
+  color: #39cdcc;
+  font-size: 12px;
+  font-family: avenir;
+  font-weight: 500;
+  position: absolute;
+  top: 110px;
+  right: 25px;
+}
+
+.loginForm > button {
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  background-color: #39cdcc;
+  border-radius: 8px;
+  border: 1px solid #39cdcc;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}

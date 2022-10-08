@@ -1,0 +1,28 @@
+.logoCompWrapper {
+  width: 50%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10vh;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1058px) {
+  .logoCompWrapper {
+    display: none;
+  }
+}
+
+.logoContainer img {
+  width: 25%;
+}
+
+.loginBgImage {
+  margin-top: 25vh;
+}
+
+.loginBgImage img {
+  width: 100%;
+}
