@@ -1,0 +1,198 @@
+.userDetailsArrow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.userDetailsArrow > p {
+  padding-left: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #545f7d;
+}
+
+.userArrow {
+  font-size: 20px;
+}
+
+.userDetailsHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userDetailsHead > h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #213f7d;
+}
+
+.activerUser {
+  display: flex;
+  align-items: center;
+}
+
+.activerUser > h3:nth-child(1) {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #e4033b;
+  margin-right: 20px;
+  border: 1px solid #e4033b;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.activerUser > h3:nth-child(2) {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #39cdcc;
+  border: 1px solid #39cdcc;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.userProfile {
+  width: 1037px;
+  height: 210px;
+  background: #ffffff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  margin-top: 40px;
+  display: flex;
+  // align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userDetail1 {
+  display: flex;
+  align-items: center;
+  padding: 40px 0px 0 30px;
+}
+
+.profileLogo {
+  font-size: 25px;
+  background: #cdc5c5;
+  border-radius: 40px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userDetailInner1 {
+  border-right: 1px solid #545f7d;
+  padding: 0 25px;
+}
+
+.userDetailInner1 > h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #213f7d;
+  padding-bottom: 5px;
+}
+
+.userDetailInner1 > h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #545f7d;
+}
+
+.userDetailInner2 {
+  border-right: 1px solid #545f7d;
+  padding: 0 25px;
+}
+
+.userDetailInner2 > h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #545f7d;
+  padding-bottom: 5px;
+}
+
+.userDetailInner3 {
+  padding: 0 25px;
+}
+
+.userDetailInner3 > h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #213f7d;
+  padding-bottom: 5px;
+}
+
+.userApps {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 0 30px;
+  justify-content: space-between;
+}
+
+.userApps > p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.userApps > p:nth-child(1) {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #39cdcc;
+  border-bottom: 2px solid #39cdcc;
+}
+
+.userInfo {
+  width: 1037px;
+  height: 910px;
+  background: #ffffff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.userGrid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: #2196f3;
+}

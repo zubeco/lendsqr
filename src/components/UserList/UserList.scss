@@ -1,0 +1,115 @@
+.userListContainer {
+  height: 640px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  padding: 30px 30px 30px 30px;
+  z-index: 1px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.userListContent {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.userListContent > p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #545f7d;
+  text-align: left;
+  flex: 1;
+  text-transform: capitalize;
+}
+
+.active > span {
+  background-color: rgb(228, 228, 228);
+  padding: 5px 10px;
+  border-radius: 40px;
+  width: 20px !important;
+}
+
+.userListContent > div {
+  padding: 0 10px;
+}
+
+//user list content
+
+.userListMenu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.userListHead > p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+}
+
+.userListIcon {
+  font-size: 15px;
+}
+
+.userListHead {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+// .userListHead:nth-child(1) {
+//   padding-left: 30px;
+// }
+
+// .userListHead:nth-child(2) {
+//   padding-left: 20px;
+// }
+
+// .userListHead:nth-child(3) {
+//   padding-left: 30px;
+// }
+
+// .userListHead:nth-child(4) {
+//   padding-left: 150px;
+// }
+
+// .userListHead:nth-child(5) {
+//   padding-left: 30px;
+// }
+
+// .userListContent > p:nth-child(6) {
+//   width: fit-content !important;
+//   background-color: red;
+// }
+
+// .userListHead:nth-child(7) {
+//   display: none;
+// }
+
+// @media only screen and (max-width: 850px) {
+//   .userListContainer {
+//     padding: 30px 0px 30px 0px;
+//   }
+// }

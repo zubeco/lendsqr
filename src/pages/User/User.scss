@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+.userContainer {
+  height: 100%;
+  width: 100%;
+  padding: 50px 60px;
+}
+
+.userHeader {
+  font-size: 24px;
+  color: #213f7d;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.userBoxContainer {
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+  margin-bottom: 60px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.userBox {
+  width: 240px;
+  height: 160px;
+  background-color: white;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  padding: 20px 0 0 30px;
+}
+
+.userBox:nth-child(1) {
+  margin-right: 20px;
+}
+
+.userBox:nth-child(2) {
+  margin-right: 20px;
+}
+.userBox:nth-child(3) {
+  margin-right: 20px;
+}
+
+.userBoxIcon {
+  font-size: 20px;
+  color: #dda6e5;
+}
+
+.userBox > div {
+  background-color: #fbe0ff;
+  width: fit-content;
+  padding: 8px 10px;
+  border-radius: 40px;
+}
+
+.userBox > p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #545f7d;
+  padding-top: 20px;
+}
+
+.userBox > h4 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #213f7d;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 950px) {
+  .userContainer {
+    height: 100%;
+    width: 100%;
+    padding: 50px 20px;
+  }
+}

@@ -1,17 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@font-face {
+  font-family: "avenir";
+  src: url("../../fonts/AvenirNextLTPro-Regular.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "avenir";
+  src: url("../../fonts/AvenirNextLTPro-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "avenir";
+  src: url("../../fonts/AvenirNextLTPro-It.otf");
+  font-weight: 200;
+}
+
 .navbarContainer {
   height: 100px;
-  background-color: red;
+  background-color: #ffffff;
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 0 30px;
+  padding-right: 50px;
+  padding-left: 30px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  // z-index: 999px;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
 }
 
 .navlogo img {
   width: 80%;
 }
 
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
 .search {
+  display: flex;
+  align-items: center;
+  margin-left: 140px;
+}
+
+.search button {
+  background-color: #39cdcc;
+  border: 1px solid #39cdcc;
+  height: 40px;
+  width: 56px;
+  outline: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  font-size: 15px;
+  color: white;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.navRightInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.navRightInner > img {
+  border-radius: 50px;
+  width: 30px;
+}
+
+.navRightInner > p {
+  color: #213f7d;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+}
+
+.navRight > p {
+  width: 30%;
+  color: #213f7d;
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bell-icon {
+  color: #213f7d;
+  font-size: 20px;
 }
 
 .search input {
@@ -22,4 +114,32 @@
   border-bottom-left-radius: 8px;
   outline: none;
   padding: 0 20px;
+  border-right: 1px solid #39cdcc;
+  opacity: 0.2;
+}
+
+@media only screen and (max-width: 1058px) {
+  .search {
+    display: none;
+  }
+
+  .navRight {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .navRight {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .navRightInner> p {
+    display: none;
+  }
 }

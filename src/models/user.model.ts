@@ -1,0 +1,30 @@
+export interface IUser {
+  id?: string;
+  orgName?: string;
+  userName?: string;
+  email?: string;
+  phoneNumber?: string;
+  createdAt?: string;
+  lastActiveDate?: string;
+  firstName?: string;
+  lastName?: string;
+  avatar?: string;
+  gender?: string;
+  bvn?: string;
+  address?: string;
+  currency?: string;
+  profile: {};
+  accountBalance?: string;
+  accountNumber?: string;
+  facebook?: string;
+  instagram?: string;
+  twitter?: string;
+  education: {};
+  level?: string;
+  employmentStatus?: string;
+  sector?: string;
+  duration?: string;
+  officeEmail?: string;
+  monthlyIncome: [];
+  loanRepayment?: string;
+}
