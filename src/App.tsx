@@ -9,7 +9,7 @@ export default function App() {
     <div>
       <Routes>
         <Route path="login" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />}>
+        <Route path="/" element={<Dashboard />}>
           <Route path="user" element={<User />} />
           <Route path="user/:id" element={<UserDetails />} />
         </Route>

@@ -25,7 +25,7 @@ export default function SideNav() {
 
       <div>
         <h2 className="sideBarHeader">CUSTOMERS</h2>
-        <Link to="/dashboard/user" style={decor}>
+        <Link to="/user" style={decor}>
           <div className="flex2Container">
             <div className="flex2Clicked">
               <FaUserFriends className="sideNavIcons" />

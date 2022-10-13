@@ -100,6 +100,10 @@
   justify-content: center;
 }
 
+.profileLogo > img {
+  border-radius: 40px;
+}
+
 .userDetailInner1 {
   border-right: 1px solid #545f7d;
   padding: 0 25px;
@@ -189,10 +193,49 @@
   box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
   border-radius: 4px;
   margin-top: 40px;
+  padding: 30px 30px;
+}
+.userInfo1 > h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213f7d;
+  margin-bottom: 40px;
 }
 
 .userGrid {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  background-color: #2196f3;
+  border-bottom: 1px solid #213f7d;
+  margin-bottom: 30px;
+}
+
+.userGrid1 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  border-bottom: 1px solid #213f7d;
+  margin-bottom: 30px;
+}
+
+.userData > h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #545f7d;
+}
+
+.userData > p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #545f7d;
+  padding-top: 5px;
+  margin-bottom: 30px;
 }

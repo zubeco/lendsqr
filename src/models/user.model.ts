@@ -13,18 +13,52 @@ export interface IUser {
   bvn?: string;
   address?: string;
   currency?: string;
-  profile: {};
+  profile?: IProfile;
   accountBalance?: string;
   accountNumber?: string;
-  facebook?: string;
-  instagram?: string;
-  twitter?: string;
-  education: {};
+  socials?: ISocials;
+  education: IEducation;
   level?: string;
   employmentStatus?: string;
   sector?: string;
   duration?: string;
   officeEmail?: string;
   monthlyIncome: [];
+  loanRepayment?: string;
+  guarantor: IGuarator;
+}
+
+export interface IProfile {
+  address?: string;
+  avatar?: string;
+  bvn?: string;
+  currency?: string;
+  firstName?: string;
+  gender?: string;
+  lastName?: string;
+  phoneNumber?: string;
+}
+
+export interface IGuarator {
+  firstName?: string;
+  lastName?: string;
+  phoneNumber?: string;
+  gender?: string;
+  address?: string;
+}
+
+export interface ISocials {
+  facebook?: string;
+  instagram?: string;
+  twitter?: string;
+}
+
+export interface IEducation {
+  level?: string;
+  employmentStatus?: string;
+  sector?: string;
+  duration?: string;
+  officeEmail?: string;
+  monthlyIncome?: string[];
   loanRepayment?: string;
 }
